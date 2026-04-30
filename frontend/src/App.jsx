@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 import { Layout } from './components/layout'
+import { Home } from './pages/Home'
 import { DesignSystem } from './pages/DesignSystem'
 
-function Home()    { return <div className="p-10">🏠 Home</div> }
-function Catalog() { return <div className="p-10">🚗 Catálogo</div> }
-function Detail()  { return <div className="p-10">🔍 Detalhes</div> }
-function Compare() { return <div className="p-10">⚖️ Comparar</div> }
+function Catalog() { return <div className="p-10">🚗 Catálogo — em breve</div> }
+function Detail()  { return <div className="p-10">🔍 Detalhes — em breve</div> }
+function Compare() { return <div className="p-10">⚖️ Comparar — em breve</div> }
 
 export default function App() {
   return (

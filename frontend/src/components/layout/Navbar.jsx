@@ -5,6 +5,7 @@ const links = [
   { label: 'Início',    path: '/' },
   { label: 'Catálogo',  path: '/catalogo' },
   { label: 'Comparar',  path: '/comparar' },
+  { label: 'Marcas',    path: '/catalogo' },
 ]
 
 export function Navbar() {
