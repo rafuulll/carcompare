@@ -3,9 +3,8 @@ import { Layout }       from './components/layout'
 import { Home }         from './pages/Home'
 import { Catalog }      from './pages/Catalog'
 import { Detail }       from './pages/Detail'
+import { Compare }      from './pages/Compare'
 import { DesignSystem } from './pages/DesignSystem'
-
-function Compare() { return <div className="p-10">⚖️ Comparar — em breve</div> }
 
 export default function App() {
   return (
