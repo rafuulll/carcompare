@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
-import { Layout } from './components/layout'
-import { Home }    from './pages/Home'
-import { Catalog } from './pages/Catalog'
+import { Layout }       from './components/layout'
+import { Home }         from './pages/Home'
+import { Catalog }      from './pages/Catalog'
+import { Detail }       from './pages/Detail'
 import { DesignSystem } from './pages/DesignSystem'
 
-function Detail()  { return <div className="p-10">🔍 Detalhes — em breve</div> }
 function Compare() { return <div className="p-10">⚖️ Comparar — em breve</div> }
 
 export default function App() {
