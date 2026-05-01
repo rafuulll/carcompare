@@ -54,7 +54,7 @@ export function CarCard({ car }) {
             Ver Detalhes
           </Button>
           <Button variant="outline" size="sm" onClick={e => { e.stopPropagation(); navigate('/comparar') }}>
-            + Comparar
+            Comparar
           </Button>
         </div>
       </div>
